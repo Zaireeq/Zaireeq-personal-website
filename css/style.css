@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 0px 0px;
+    background-image: url(../img/background\ beige\ .jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    color: rgb(247, 244, 244);
+}
+
+/*Navigation*/
+.navbar 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(233, 233, 233);
+    background-image: url(../img/nav.jpg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.navbar ul 
+{
+    display: flex;
+    list-style: none;
+    margin: 30px ;
+}
+
+.navbar ul li 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5 rem;
+    font-weight: bold;
+}
+
+.navbar ul li a 
+{
+    text-decoration:dashed;
+    color: rgb(255, 255, 255);
+    padding: 20px 100px; 
+}
+
+.navbar ul li a:hover 
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px burlywood;
+}
+
+nav a:hover, nav a.active {
+    background-color: burlywood;
+}
+
+header 
+{
+    text-align: center;
+    background-color: burlywood;
+    padding: 50px 0;
+}
+
+
+.p 
+{
+    font-size: 20rem;
+    margin-top: 10px;
+}
+
+
+
+/*index*/
+
+.hero
+{
+    position: relative;
+    height: 700px;
+    display: flex;
+    background-image: url(../img/background\ beige\ .jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "josefins",serif;
+    
+}
+
+.hero a 
+{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: burlywood;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius:10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.hero a:hover 
+{
+    transform: scale(1.1);
+}
+
+
+
+.hero-content 
+{
+    position: absolute;
+    border-radius: 50px;
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.hero h1 
+{
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    color: white;
+}
+
+.hero p 
+{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+section 
+{
+    padding: 35px;
+    background: wheat;
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 40px;
+    text-align: justify;
+    border: 10px solid burlywood;
+}
+
+
+h2 
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p, ul 
+{
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+body
+ {
+    text-align: center;
+    padding: px 0px;
+    background-image: url(../img/background\ beige\ .jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+header p {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #f4f4f4;
+}
+
+
+header {
+    text-align: center;
+    padding: 0px 0px;
+    background-image: url(../img/background\ beige\ .jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+header img 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+header h2 {
+    margin-top: 10px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+footer
+{
+    background-image: url(../img/nav.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p 
+{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+/*BACKGROUND*/
+
+.Background
+ {
+    background-color: burlywood;
+    background-image: url(../img/marble.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    border-color: blanchedalmond;
+    
+}
+
+
+
+.Background h3 
+{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "josefins sans",serif;
+}
+
+Table,td,tr
+{
+    border:5px solid blanchedalmond;
+    border-collapse: collapse;
+    padding: 5px;
+    line-height: 1.7;
+    font-size: 1.1em;
+    color: white;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+
+
+/*introduction*/
+
+.introduction
+{
+    background-color: blanchedalmond;
+    background-image: url(../img/marble.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black
+    text-align: justify;
+    border-color: blanchedalmond; 
+}
+
+.introduction h3 
+{
+    font-size: 2.1rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "josefins sans",serif;
+}
+
+.introduction p 
+{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: white;
+    font-weight: bolder;
+}
+
+h1
+{
+    margin-top: 10px;
+}
+
+/*Education*/ 
+
+
+.education
+{
+    background-color: burlywood;
+    background-image: url(../img/marble.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: justify;
+    border-color: blanchedalmond;
+    border-radius:0 ;
+    font-size: 1.8em;
+}
+
+
+.container1
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+
+.education h3 
+{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container2
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+
+.education p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: white;
+}
+
+.container3
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.text-box
+{
+    padding: 25px ;
+    background:rgb(246, 203, 147);
+    background-image: url(../img/marble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-right: 80px;
+    margin-left:50px
+    
+}
+
+
+.exp
+{
+    background-color: transparent;
+    background-size:auto;
+    border-color: blanchedalmond;
+    border-radius:20px ;
+    margin-right: 200;
+    margin-top: 20px;
+}
+
+
+
+.exp table,td,tr
+{
+    border:5px solid blanchedalmond;
+    border-radius: 25px;
+    border-collapse:separate;
+    padding: 5px;
+    line-height: 1.7;
+    font-size: 1.1em;
+    color: white;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+
+
+/*Gallery*/
+.section-title 
+{
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+    max-width: 800px;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+
+.wrapper
+ {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.container 
+{
+    height: 400px;
+    display: contents;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card 
+{
+    width: 80px;
+    border-radius: .75rem;
+    background-size:cover;
+    cursor: pointer;
+    overflow:hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card > .row 
+{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row  >.icon
+{
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+
+
+.card > .row > .description 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 550px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p 
+{
+    color: khaki;
+    padding-top: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.description h4 
+{
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.container input 
+{
+    display: none;
+}
+
+input:checked + label 
+{
+    width: 1000px;
+    
+}
+
+input:checked + label .description 
+
+{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card[for="c1"] 
+{
+    background-image: url(../img/fam.jpg);
+    
+}
+
+.card[for="c2"] 
+{
+    background-image: url(../img/childhood.jpg);
+
+}
+
+.card[for="c3"] 
+{
+    background-image: url(../img/friends.jpg);
+}
+
+.card[for="c4"] 
+{
+    background-image: url(../img/raya\ kelas.jpg);
+}
+
+.card[for="c5"] 
+{
+    background-image: url(../img/me3.jpg);
+}
+
+.card[for="c6"] 
+{
+    background-image: url(../img/meowy1.jpg);
+}
+
+.card[for="c7"] 
+{
+    background-image: url(../img/meowy2.jpg);
+}
+
+
+
+
+/*contact*/
+
+.contact-container
+{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contact-inner-container
+  {
+    padding: 0px;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image:url(../img/marble.jpg);
+    border-radius: 4px;
+  }
+  
+  .contact-info-container
+  {
+    width: 50%;
+    text-align: left;
+    padding: 50px;
+    background: brown;
+  }
+  
+  .contact-form
+  {
+    width: 50%;
+    background-image: url(../img/marble.jpg);
+    padding: 50px;
+    border-radius: 0px 4px 4px 0px;
+  }
+  
+  .contact-heading
+  {
+    font-family: inherit;
+    font-size: 4rem;
+    font-weight: 700 !important;
+    line-height: 4rem;
+    color: #F6F7A9;
+  }
+  
+  .contact-description
+  {
+    font-family: inherit;
+    font-weight: 700;
+    color: #F6F7A9;
+    line-height: 1.6rem;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .line{
+    width: 100%;
+    height: 8px;
+    border-radius: 8px;
+    background: #F6F7A9;
+    margin: 24px 0px;
+  }
+  
+  .contact-details
+  {
+    padding-top: 24px;
+  }
+  
+  .contact-details h3
+  {
+    font-weight: 600;
+    color: #F6F7A9;
+  }
+  
+  .contact-details p
+  {
+    color: whitesmoke;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  
+ .submit-btn:hover
+  {
+    transform: translateY(-4px);
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .form-group
+  {
+    width: 100%;
+    text-align: left;
+    margin-top: 2px;
+    padding: 20px;
+  }
+  
+  .form-group:not(:last-child)
+  {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field
+  {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 18px;
+    background: #F2F2F2;
+  }
+  
+  .form-input
+  {
+    height: auto;
+  }
+  
+  .form-group textarea
+  {
+    height: 200px;
+  }
+  
+  .submit-btn
+  {
+    padding: 1rem 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background: brown;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
